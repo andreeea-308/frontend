@@ -1,0 +1,117 @@
+/* 1. Selection by tag name */
+/* select all div tags and set a background color  */
+div {
+    background-color: lavenderblush;
+}
+
+/* Selectam toate paragrafele care se afla in interiorul unui div -> copiii div-ului */
+div p {
+    text-align: center;
+    background-color: lightsteelblue;
+
+}
+
+header {
+    color: brown;
+    font-style: italic;
+}
+
+h1 {
+    color: cornflowerblue;
+}
+
+h2 {
+    color: thistle;
+}
+
+h3,
+h4,
+h5 {
+    color: lightcoral;
+}
+
+/* 2.Selection by class attribute: .nume_clasa */
+.header {
+    color: deeppink
+}
+
+.headers {
+    background-color: darkseagreen;
+    color: cornflowerblue;
+}
+
+.paragraph {
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.paragraph1 {
+    color: mediumseagreen;
+}
+
+.paragraph2 {
+    color: mediumslateblue;
+
+}
+
+.images {
+    border: 5px solid rosybrown;
+}
+
+/* Selection by id attribute: #nume_id */
+#header {
+    color: mediumpurple;
+}
+
+#p1 {
+    color: rebeccapurple;
+    font-weight: 900;
+    text-decoration: underline overline;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#text {
+    color: tomato;
+    font-style: italic;
+}
+
+#list1 {
+    background-color: deepskyblue;
+}
+
+
+#list2 {
+    background-color: lightcoral;
+}
+
+#img3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* Selctam toti copiii directi ai listei ordonate -> child_selector(>) */
+ol>li{
+    color:darkgreen;
+}
+
+/* Selectam doar un list item din lista neordonata: slectie tag.nume_clasa */
+li.fruit {
+color: green;
+}
+
+/* Selectam toate paragrafele care au clasa comuna "paragraph" */
+
+p.paragraph{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Selectam toate paragrafele din interiorul unui div care au clasa ".container" */
+.container>p{
+    background-color:lemonchiffon;
+
+}
